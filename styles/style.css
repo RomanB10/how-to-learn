@@ -29,3 +29,38 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+.page {
+  background-color: blue;
+}
+
+.content {
+  background-color: green;
+}
+
+.header {
+  background-color: grey;
+}
+
+.description {
+  background-color: orange;
+}
+
+.digits {
+  background-color: pink;
+
+}
+
+.feynman {
+  background-color: yellow;
+
+}
+
+.kaufman {
+  background-color: yellow;
+
+}
+
+.footer {
+  background-color: black;
+}
