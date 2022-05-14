@@ -1,5 +1,10 @@
+body {
+
+
+}
+
 .page {
-  background-color: aqua;
+  border: 5px solid rebeccapurple;
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
   /* поэтому выше установлена минимальная ширина страницы */
@@ -11,68 +16,91 @@
 }
 
 .header {
+  display:flex;
+  flex-wrap: wrap;
   position: relative;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
-  display: flex;
-
+  border: 1px double red;
 }
 
 .logo {
-  border: 0px solid red;
+  border: 1px solid red;
   width: 228px;
-  height: 32px;
+  height: 30px;
 }
 
 .logo_place_header {
   position:absolute;
   top: 30px;
   left: 64px;
+  z-index: 1;
 }
 
 .header__title {
+  position: absolute;
+  z-index: 1;
+  box-sizing: border-box;
+  align-content: center;
   width: 730px;
-  position: relative;
-  left:64px;
+  border: 1px solid red;
+  left: 64px;
+}
+
+.header__title_size_s {
+  /*margin: 0;*/
+  /*padding:0;*/
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: bold;
 }
 
 .header__subtitle {
+  border: 1px solid red;
+  z-index: 1;
+  flex-wrap: wrap;
+  width: 388px;
   position: absolute;
   left: 64px;
   bottom: 30px;
+
 }
 
+.header__subtitle_title {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
 .header__main-illustration {
+  flex-wrap: wrap;
+  border: 1px solid red;
   position: absolute;
+  z-index: 1;
   right: 0;
   bottom: 0;
   width: 765px;
   height: 608px;
 }
 
+.header__main-illustration_size {
+  width: 765px;
+  height: 608px;
+}
+
 .header__square-pic {
-  position: absolute:
+  position: absolute;
+  width: 568px;
+  height: 568px;
   top: 64px;
   right: 0;
-  background-color: #2f8Oed;
-
+  background-color: #2f80ed;
+  z-index: 0;
 }
 
-
-.body__title {
-  color: red;
-
-}
-
-body {
-
-}
-
-.page__title {
-  background-color: blueviolet;
-}
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
@@ -88,40 +116,35 @@ body {
   margin-top: 80px;
 }
 
-.page {
-  background-color: blue;
-}
-
-.content {
-  background-color: green;
-}
-
-.header {
-  background-color: grey;
-}
 
 .description {
-  background-color: orange;
-  width: 250px;
-  height: 300px;
+  background-color: green;
+  display:inline-block;
+  font-size: 0;
+  width: 100%;
+  height: 100px;
 }
 
 .digits {
-  background-color: pink;
-
+  background-color: rgb(177, 12, 39);
+  width: 100%;
+  height: 100px;
 }
 
 .feynman {
-  background-color: yellow;
-
+  background-color: rgb(72, 0, 255);
+  width: 100%;
+  height: 100px;
 }
 
 .kaufman {
   background-color: yellow;
-
-}
+  width: 100%;
+  height: 100px;
+}*/
 
 .footer {
   background-color: black;
-
+  width: 100%;
+  height: 100px;
 }
