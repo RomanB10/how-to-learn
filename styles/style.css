@@ -159,11 +159,11 @@ span {
  }
 
 .section-title_theme_light {
-  margin: 100px auto 20px ;
+  margin: 100px auto 20px;
 }
 
 .section-title_theme_dark {
-  margin: 90px auto 20px ;
+  margin: 90px auto 20px;
   color: white;
 }
 
@@ -334,7 +334,6 @@ span {
 
 .footer__columns {
   position: relative;
-  margin: 0;
   width:90%;
   margin: 60px auto 40px;
   display: flex;
