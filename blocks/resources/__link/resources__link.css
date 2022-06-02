@@ -1,7 +1,6 @@
 .resources__link {
+  box-sizing: border-box;
   display: flex;
-  width: 270px;
-  height: 38px;
   cursor: pointer;
   opacity: 1;
   transition-property: opacity;
